@@ -6,7 +6,7 @@ hero:
   name: "张晓宇的个人博客"
   text: "记录一些笔记"
   tagline: The pitfalls I've encountered, I don't want you to experience them again.
-  image: ./img/logo.png
+  image: ./logo.png
   alt: 图片失败
   actions:
     - theme: brand

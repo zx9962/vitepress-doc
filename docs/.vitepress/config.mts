@@ -10,13 +10,13 @@ export default defineConfig({
       {
         rel: "icon",
         type: "image/png+xml",
-        href: "../img/logo.png",
+        href: "./logo.png",
       },
     ],
   ],
   cleanUrls: true, // 路由地址隐藏.html
   themeConfig: {
-    logo: "../img/logo.png",
+    logo: "./logo.png",
     nav: [
       { text: '首页', link: '/' },
       { text: '文档', link: '/markdown-examples' }
