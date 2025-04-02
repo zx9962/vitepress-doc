@@ -4,11 +4,12 @@ layout: home
 
 hero:
   name: "张晓宇的个人博客"
-  text: "A VitePress Site"
-  tagline: My great project tagline
+  text: "在这里记录一下笔记"
+  tagline: 我踩过的坑，不希望你们在踩一遍
+  srs:
   actions:
     - theme: brand
-      text: Markdown Examples
+      text: 查看文档
       link: /markdown-examples
     - theme: alt
       text: API Examples
