@@ -1,6 +1,5 @@
 import { defineConfig } from 'vitepress'
 
-// https://vitepress.dev/reference/site-config
 // base:'/docs/',
 export default defineConfig({
   title: "My Awesome Project",
@@ -17,7 +16,6 @@ export default defineConfig({
   ],
   cleanUrls: true, // 路由地址隐藏.html
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
     logo: "../img/logo.png",
     nav: [
       { text: '首页', link: '/' },
@@ -45,6 +43,10 @@ export default defineConfig({
         ]
       },
     ],
+    // 启动本地搜索功能
+    search: {
+      provider: "local",
+    },
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     ],

@@ -4,9 +4,10 @@ layout: home
 
 hero:
   name: "张晓宇的个人博客"
-  text: "在这里记录一下笔记"
-  tagline: 我踩过的坑，不希望你们在踩一遍
-  srs:
+  text: "记录一些笔记"
+  tagline: The pitfalls I've encountered, I don't want you to experience them again.
+  image: ./img/logo.png
+  alt: 图片失败
   actions:
     - theme: brand
       text: 查看文档
